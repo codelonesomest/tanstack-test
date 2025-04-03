@@ -9,6 +9,8 @@
     "start": "vinxi start"
   },
   "dependencies": {
+    "@arcjet/bun": "^1.0.0-beta.5",
+    "@arcjet/node": "^1.0.0-beta.5",
     "@tanstack/react-router": "^1.114.34",
     "@tanstack/react-router-devtools": "^1.114.34",
     "@tanstack/react-start": "^1.114.34",
