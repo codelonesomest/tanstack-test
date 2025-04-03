@@ -35,6 +35,9 @@ const test = createServerFn({ method: "POST" }).handler(async ({ context }) => {
 
 export const Route = createFileRoute('/')({
   component: Home,
+  beforeLoad: async () => {
+    console.log("Is email allowed beforeLoad?", await test())
+  },
   loader: async () => {
     console.log("Is email allowed?", await test())
   }
