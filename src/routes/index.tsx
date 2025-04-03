@@ -7,7 +7,7 @@ import { getWebRequest } from '@tanstack/react-start/server';
 
 const aj = arcjet({
 
-  key: "",
+  key: "ajkey_01jqw0pgk6ftxbg0n0rjcy4v52",
 
   rules: [
 
